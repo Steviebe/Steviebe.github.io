@@ -1,0 +1,40 @@
+#contact {
+	display: inline-block;
+	background-color: #000;
+	color: #fff;
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+	font-size: 30px;
+	line-height: 75%;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#facebook, #twitter, #email, #linkedin {
+	display: block;
+	float: left;	
+	width: 25%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#whoa, #hi, #stuff	 {
+	display:none;
+}
+
+#me {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
