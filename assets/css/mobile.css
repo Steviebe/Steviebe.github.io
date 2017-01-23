@@ -9,10 +9,11 @@
 	position: absolute;
 	bottom: 0px;
 	left: 0px;
-	width: 100%;
+	width: 100%;	
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
+	height: 65px;
 }
 
 #facebook, #twitter, #email, #linkedin {
@@ -20,7 +21,7 @@
 	float: left;	
 	width: 25%;
 	margin: 0;
-	padding: 0;
+	padding: 10px 0 0 0;
 	text-align: center;
 	font-size: 0;
 }
@@ -43,5 +44,12 @@ li img {
 	padding: 0;
 	text-align: center;
 	font-size: 50px;
+}
+
+body {
+	background: #fff;
+	background-image: url("../images/me.png");
+	background-repeat: no-repeat;
+	background-position: 50%;
 }
 
